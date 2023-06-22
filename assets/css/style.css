@@ -4,6 +4,7 @@
 
 :root {
     --primary-color: #000154;
+    --text-color: #212529;
     --header-background: #fff;
 }
 
@@ -64,7 +65,7 @@ a {
 
 .navbar__link,
 .navbar__btn {
-    padding: 4px 16px;
+    padding: 4px 18px;
     font-weight: 600;
     font-size: 1.8rem;
     color: #000;
@@ -77,6 +78,7 @@ a {
 .navbar__btn:hover {
     color: #fff;
     background-color: var(--primary-color);
+    text-decoration: none;
 }
 
 .navbar__btn {
@@ -148,3 +150,101 @@ a {
 }
 
 /*============ Hero ===========*/
+
+/*============ About ===========*/
+
+.about-top {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.about-top .contain {
+    width: 810px;
+    margin: 58px 0;
+}
+
+.about-top__title {
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+.about-top__desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.about-bot {
+    padding: 120px 0;
+    background-color: #f0f0f0;
+}
+
+.about-bot__head {
+    width: 540px;
+    text-align: center;
+}
+
+.about-bot__title {
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: var(--text-color);
+}
+
+.about-bot__desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+.about-bot__list {
+    width: 1364px;
+    max-width: calc(100% - 48px);
+    margin: 66px auto 0;
+    /* padding: */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-list__item {
+    width: 423px;
+}
+
+.about-list__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.about-list__icon--1 {
+    width: 68px;
+    height: 68px;
+}
+
+.about-list__title {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.about-list__desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+/*============ About ===========*/
