@@ -1,0 +1,200 @@
+/* ============= Milliard ============== */
+@font-face {
+    font-family: "Milliard Book";
+    src: url("Milliard/Milliard-BoldItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard Book";
+    src: url("Milliard/Milliard-BookItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-BookItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-BlackItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-Black.woff2") format("woff2"),
+        url("Milliard/Milliard-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard Book";
+    src: url("Milliard/Milliard-Bold.woff2") format("woff2"),
+        url("Milliard/Milliard-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-ExtraBoldItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-ExtraBold.woff2") format("woff2"),
+        url("Milliard/Milliard-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard Book";
+    src: url("Milliard/Milliard-Book.woff2") format("woff2"),
+        url("Milliard/Milliard-Book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-ExtraLightItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-ExtraLight.woff2") format("woff2"),
+        url("Milliard/Milliard-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard Hairline";
+    src: url("Milliard/Milliard-HairlineItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-HairlineItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard Hairline";
+    src: url("Milliard/Milliard-Hairline.woff2") format("woff2"),
+        url("Milliard/Milliard-Hairline.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-HeavyItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-HeavyItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-Heavy.woff2") format("woff2"),
+        url("Milliard/Milliard-Heavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-LightItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-Light.woff2") format("woff2"),
+        url("Milliard/Milliard-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-MediumItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-Medium.woff2") format("woff2"),
+        url("Milliard/Milliard-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-SemiBoldItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-ThinItalic.woff2") format("woff2"),
+        url("Milliard/Milliard-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-SemiBold.woff2") format("woff2"),
+        url("Milliard/Milliard-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Milliard";
+    src: url("Milliard/Milliard-Thin.woff2") format("woff2"),
+        url("Milliard/Milliard-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ============= Milliard ============== */
