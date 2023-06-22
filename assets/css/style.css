@@ -2,11 +2,149 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #000154;
+    --header-background: #fff;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
     font-size: 1.6rem;
-    font-family: "Milliard", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
+/*============ Common===========*/
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    width: 1140px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+/*============ Common===========*/
+
+/*============ Header ===========*/
+
+.header {
+    background-color: var(--header-background);
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0 8px;
+    /* background-color: orange; */
+}
+
+.fixed {
+    position: sticky;
+    top: -10px;
+    z-index: 1;
+}
+
+.contain-head {
+    width: 1700px;
+}
+
+.header__logo {
+    width: 150px;
+    height: 50px;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link,
+.navbar__btn {
+    padding: 4px 16px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.navbar__link:hover {
+    text-decoration: underline;
+}
+
+.navbar__btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.navbar__btn {
+    min-width: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    height: 42px;
+}
+
+/*============ Header ===========*/
+
+/*============ Hero ===========*/
+
+.hero {
+    position: relative;
+    min-height: calc(100vh - 78px);
+}
+
+.hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    background-color: #1e2638;
+    background-image: url("https://templates.microweber.com/services/userfiles/media/default/mediensturmer-awf7mjwwjjo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.hero__background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005b;
+}
+
+.hero__info {
+    width: 920px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 78px);
+}
+
+.hero__title {
+    font-size: 5.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.hero__desc {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.6;
+    color: #fff;
+}
+
+/*============ Hero ===========*/
