@@ -15,7 +15,7 @@
         <!-- Embed fonts -->
         <link rel="stylesheet" href="./assets/font/stylesheet.css" />
     </head>
-    <body style="height: 10000px">
+    <body>
         <header class="header fixed">
             <div class="contain contain-head">
                 <div class="header-top">
@@ -32,22 +32,24 @@
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Trang chủ</a>
+                                <a href="#" class="navbar__link">Trang chủ</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">
+                                <a href="#about" class="navbar__link">
                                     Về chúng tôi
                                 </a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Dịch vụ</a>
+                                <a href="#services" class="navbar__link"
+                                    >Dịch vụ</a
+                                >
                             </li>
                         </ul>
                     </nav>
 
                     <!-- Action -->
                     <div class="action">
-                        <a href="#!" class="navbar__link navbar__btn">
+                        <a href="#contact" class="navbar__link navbar__btn">
                             Liên hệ
                         </a>
                     </div>
@@ -60,7 +62,7 @@
             <section class="hero">
                 <div class="hero__background"></div>
                 <div class="contain hero__info">
-                    <h1 class="hero__title">[Tên Công ty]</h1>
+                    <h1 class="hero__title">CISAI</h1>
                     <p class="hero__desc">
                         Chúng tôi là một công ty công nghệ với sứ mệnh cung cấp
                         các giải pháp và dịch vụ tiên tiến cho khách hàng trong
@@ -70,13 +72,13 @@
             </section>
 
             <!-- About -->
-            <section class="about-top">
+            <section class="about-top" id="about">
                 <div class="contain">
                     <h2 class="about-top__title">Về chúng tôi</h2>
                     <p class="about-top__desc">
-                        [Tên Công ty] là một công ty công nghệ hàng đầu tại [Địa
-                        điểm], chúng tôi chuyên về [lĩnh vực chính của công ty].
-                        Với đội ngũ chuyên gia giàu kinh nghiệm và kiến thức sâu
+                        CISAI là một công ty công nghệ hàng đầu tại [Địa điểm],
+                        chúng tôi chuyên về [lĩnh vực chính của công ty]. Với
+                        đội ngũ chuyên gia giàu kinh nghiệm và kiến thức sâu
                         sắc, chúng tôi cam kết mang đến các giải pháp và dịch vụ
                         tối ưu nhất cho khách hàng của mình.
                     </p>
@@ -144,7 +146,7 @@
             </section>
 
             <!-- Services -->
-            <section class="services">
+            <section class="services" id="services">
                 <div class="contain">
                     <section class="services__header">
                         <h2 class="services__title">Dịch vụ</h2>
@@ -221,5 +223,43 @@
                 </div>
             </section>
         </main>
+
+        <footer class="footer" id="contact">
+            <section class="contain">
+                <div class="footer__title">
+                    <span class="title">Vui lòng liên hệ với chúng tôi</span>
+                </div>
+                <div class="footer__info">
+                    <span class="number">012 345 6789</span>
+                    <span href="#!" class="email">info@gmail.com</span>
+                </div>
+                <div class="footer__social">
+                    <span class="social__title">Theo dõi chúng tôi</span>
+                    <div class="social-icon">
+                        <a href="#!">
+                            <img
+                                src="./assets/img/facebook.svg"
+                                alt=""
+                                class="icon"
+                            />
+                        </a>
+                        <a href="#!">
+                            <img
+                                src="./assets/img/instagram.svg"
+                                alt=""
+                                class="icon"
+                            />
+                        </a>
+                        <a href="#!">
+                            <img
+                                src="./assets/img/linked_in.svg"
+                                alt=""
+                                class="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
