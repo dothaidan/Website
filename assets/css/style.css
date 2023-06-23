@@ -146,7 +146,7 @@ a {
 
 .hero__desc {
     margin-top: 8px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 3rem;
     line-height: 1.6;
     color: #fff;
@@ -204,7 +204,7 @@ a {
 
 .about-bot__desc {
     margin-top: 18px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2rem;
     line-height: 1.7;
     color: var(--text-color);
@@ -311,7 +311,7 @@ a {
 
 .services__part--desc {
     margin-top: 48px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2rem;
     line-height: 1.6;
     color: var(--text-color);
