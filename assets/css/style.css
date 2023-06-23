@@ -27,6 +27,7 @@ a {
     width: 1140px;
     max-width: calc(100% - 48px);
     margin: 0 auto;
+    text-align: center;
 }
 /*============ Common===========*/
 
@@ -248,3 +249,72 @@ a {
 }
 
 /*============ About ===========*/
+
+/*============ Services ===========*/
+
+.services__header {
+    margin: 100px auto;
+    width: 525px;
+    max-width: calc(100% - 48px);
+}
+
+.services__title {
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+.services__desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.services__list {
+    margin-top: 108px;
+}
+
+.services__part {
+    display: flex;
+}
+
+.services__part:not(:first-child) {
+    margin-top: 170px;
+}
+
+.services__media {
+    padding: 0 15px;
+}
+
+.services__part--image {
+    width: 540px;
+    object-fit: cover;
+}
+
+.services__content {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.services__part--title {
+    margin-top: 58px;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: normal;
+}
+
+.services__part--desc {
+    margin-top: 48px;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.services__part.part-2 {
+    flex-direction: row-reverse;
+}
+/*============ Services ===========*/
