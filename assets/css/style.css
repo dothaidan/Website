@@ -35,7 +35,11 @@ a {
 
 /*============ Header ===========*/
 
-.header {
+.header-fixed {
+    position: sticky;
+    top: -10px;
+    z-index: 1;
+    padding-top: 10px;
     background-color: var(--header-background);
 }
 
@@ -44,13 +48,6 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 18px 0 8px;
-    /* background-color: orange; */
-}
-
-.fixed {
-    position: sticky;
-    top: -10px;
-    z-index: 1;
 }
 
 .contain-head {
